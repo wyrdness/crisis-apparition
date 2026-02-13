@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-02-13",
+    "repository": "https://github.com/wyrdness/crisis-apparition",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+  "phenomenon": {
+    "id": "crisis-apparition",
+    "name": "Crisis Apparition",
+    "aliases": [],
+    "category": "PSYCHIC",
+    "subcategory": "of apparition in which a person appears to friends, family, or loved ones at the moment of—or shortly before or after—their death, serious injury, or extreme distress, despite being physically distant from the witness. Unlike traditional ghosts that appear long after death at haunted locations, crisis apparitions occur as one-time events, typically within 12 hours of the crisis itself. These phenomena have been extensively documented by psychical researchers and represent one of the most well-attested categories of spontaneous paranormal experiences, with thousands of cases collected since the late 19th century.",
+    "tags": [
+      "folklore",
+      "mythology"
+    ],
+    "status": "documented",
+    "description": {
+      "summary": "A Crisis Apparition is a specific type of apparition in which a person appears to friends, family, or loved ones at the moment of—or shortly before or after—their death, serious injury, or extreme distress, despite being physically distant from the witness.",
+      "full": "A Crisis Apparition is a specific type of apparition in which a person appears to friends, family, or loved ones at the moment of—or shortly before or after—their death, serious injury, or extreme distress, despite being physically distant from the witness. Unlike traditional ghosts that appear long after death at haunted locations, crisis apparitions occur as one-time events, typically within 12 hours of the crisis itself. These phenomena have been extensively documented by psychical researchers and represent one of the most well-attested categories of spontaneous paranormal experiences, with thousands of cases collected since the late 19th century."
+    },
+    "etymology": {
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
+    }
+  },
+  "classification": {
+    "taxonomy": {
+      "category": "PSYCHIC",
+      "type": "of apparition in which a person appears to friends, family, or loved ones at the moment of—or shortly before or after—their death, serious injury, or extreme distress, despite being physically distant from the witness. Unlike traditional ghosts that appear long after death at haunted locations, crisis apparitions occur as one-time events, typically within 12 hours of the crisis itself. These phenomena have been extensively documented by psychical researchers and represent one of the most well-attested categories of spontaneous paranormal experiences, with thousands of cases collected since the late 19th century.",
+      "subtype": "Unknown",
+      "variant": "Unknown"
+    },
+    "related_phenomena": []
+  },
+  "characteristics": {
+    "physical": {
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
+    },
+    "abilities": [],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
+  },
+  "distribution": {
+    "range": {
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
+    }
+  },
+  "history": {
+    "origins": {
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
+    },
+    "timeline": []
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
+  "cultural": {
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
+    },
+    "popular_culture": {
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
+    }
+  },
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
+}
