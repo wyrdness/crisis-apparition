@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/crisis-apparition",
     "maintainers": [
       {
@@ -16,111 +16,258 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "crisis-apparition",
     "name": "Crisis Apparition",
-    "aliases": [],
-    "category": "PSYCHIC",
-    "subcategory": "of apparition in which a person appears to friends, family, or loved ones at the moment of—or shortly before or after—their death, serious injury, or extreme distress, despite being physically distant from the witness. Unlike traditional ghosts that appear long after death at haunted locations, crisis apparitions occur as one-time events, typically within 12 hours of the crisis itself. These phenomena have been extensively documented by psychical researchers and represent one of the most well-attested categories of spontaneous paranormal experiences, with thousands of cases collected since the late 19th century.",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Veridical apparition", "language": "English", "meaning": "An apparition that conveys truthful information about an event at a distance" },
+      { "name": "Death wraith", "language": "English", "region": "British Isles", "meaning": "Apparition of a dying person appearing to loved ones" },
+      { "name": "Fetch", "language": "English", "region": "Ireland and Scotland", "meaning": "Double or apparition of a living person, seen at time of crisis or death" }
     ],
-    "status": "documented",
+    "category": "PSYCHIC_PHENOMENA",
+    "subcategory": "Spontaneous apparition",
+    "tags": [
+      "apparition",
+      "psychic",
+      "telepathy",
+      "death",
+      "crisis",
+      "SPR",
+      "psychical-research",
+      "ghost"
+    ],
+    "status": "active",
     "description": {
-      "summary": "A Crisis Apparition is a specific type of apparition in which a person appears to friends, family, or loved ones at the moment of—or shortly before or after—their death, serious injury, or extreme distress, despite being physically distant from the witness.",
-      "full": "A Crisis Apparition is a specific type of apparition in which a person appears to friends, family, or loved ones at the moment of—or shortly before or after—their death, serious injury, or extreme distress, despite being physically distant from the witness. Unlike traditional ghosts that appear long after death at haunted locations, crisis apparitions occur as one-time events, typically within 12 hours of the crisis itself. These phenomena have been extensively documented by psychical researchers and represent one of the most well-attested categories of spontaneous paranormal experiences, with thousands of cases collected since the late 19th century."
+      "summary": "A crisis apparition is an apparition of a living person that appears to friends or family at the moment of — or within approximately 12 hours of — that person's death, serious injury, or extreme distress, despite the person being physically distant from the witness.",
+      "full": "A crisis apparition is a specific type of spontaneous apparition in which a person appears to friends, family, or loved ones at the moment of — or shortly before or after — their death, serious injury, or extreme distress, despite being physically distant from the witness. Unlike traditional ghosts that appear long after death at haunted locations, crisis apparitions occur as one-time events, typically within 12 hours of the crisis itself. These phenomena have been extensively documented by psychical researchers since the late 19th century and represent one of the most statistically well-attested categories of spontaneous paranormal experience. The Society for Psychical Research (SPR), founded in 1882, conducted systematic surveys and found that crisis apparitions occurred 440 times more frequently than chance expectation. In 1886, Edmund Gurney, Frederic W.H. Myers, and Frank Podmore published Phantasms of the Living, a 1,300-page two-volume analysis of 702 verified apparition cases collected from 5,700 respondents. The dominant psychical-research theory holds that crisis apparitions are hallucinations caused by telepathic impressions from the distressed person reaching the percipient's mind. Mainstream psychology attributes such reports to coincidence, selective memory, grief, and the human tendency to impose narrative meaning on random events."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "English compound term from psychical research literature, late 19th century",
+      "meaning": "'Crisis' (from Greek krisis, decisive point/moment of danger) + 'apparition' (from Latin apparere, to appear). A vision that appears coinciding with a moment of crisis.",
+      "first_use": "Late 19th century; systematized in SPR literature from 1882 onward; formally defined in Phantasms of the Living (1886)"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "PSYCHIC",
-      "type": "of apparition in which a person appears to friends, family, or loved ones at the moment of—or shortly before or after—their death, serious injury, or extreme distress, despite being physically distant from the witness. Unlike traditional ghosts that appear long after death at haunted locations, crisis apparitions occur as one-time events, typically within 12 hours of the crisis itself. These phenomena have been extensively documented by psychical researchers and represent one of the most well-attested categories of spontaneous paranormal experiences, with thousands of cases collected since the late 19th century.",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "PSYCHIC_PHENOMENA",
+      "type": "Spontaneous apparition",
+      "subtype": "Veridical hallucination / telepathic impression",
+      "variant": "Crisis-coincident (death, injury, or extreme distress)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "ghost", "name": "Ghost", "relationship": "related", "description": "Post-mortem apparitions; crisis apparitions occur at the moment of death rather than afterward" },
+      { "id": "telepathy", "name": "Telepathy", "relationship": "related", "description": "The dominant psychical-research explanation is that crisis apparitions are caused by telepathic transmission of distress" },
+      { "id": "near-death-experience", "name": "Near-Death Experience", "relationship": "related", "description": "Sometimes co-occurs with NDE accounts; both involve altered perception at the boundary of life and death" },
+      { "id": "doppelganger", "name": "Doppelganger", "relationship": "similar", "description": "Double of a living person; in some traditions, seeing one's own doppelganger portends death" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Visual apparition of known person", "description": "The percipient sees a recognizable image of the agent (the person in crisis), often life-sized and seemingly solid", "frequency": "common" },
+        { "feature": "Communication or gesture", "description": "The apparition may appear to speak, gesture, or convey a sense of farewell without audible words", "frequency": "common" },
+        { "feature": "Sudden disappearance", "description": "The apparition typically vanishes abruptly or fades without explanation", "frequency": "common" },
+        { "feature": "Non-interactive", "description": "Unlike interactive ghosts, crisis apparitions typically do not respond to the witness's actions or words", "frequency": "common" },
+        { "feature": "Single occurrence", "description": "Crisis apparitions appear only once; they do not repeat at the same location like haunting phenomena", "frequency": "always" },
+        { "feature": "Auditory or tactile variants", "description": "Some cases involve hearing the person's voice, or a sense of touch, rather than a visual image", "frequency": "occasional" }
+      ],
+      "morphology": "Crisis apparitions present as realistic visual images of a living person, indistinguishable in apparent solidity from a real person, though sometimes slightly translucent or with unusual lighting. They may appear in waking life, hypnagogic states, or vivid dreams."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Conveying crisis information at a distance", "description": "The apparition appears to communicate the fact of the agent's distress across physical distance, often before any normal communication could have occurred", "frequency": "always", "evidence_level": "reported" },
+      { "ability": "Cross-sensory manifestation", "description": "May manifest as vision, sound (voice), touch, or a strong sense of presence depending on the witness", "frequency": "common", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "passive",
+      "social_structure": "solitary",
+      "habitat_preference": ["private homes", "any location where the percipient is present at time of agent's crisis"],
+      "diet": "Not applicable",
+      "patterns": [
+        "Occurs within approximately 12 hours of the agent's death, injury, or extreme distress",
+        "Typically involves a person known to the percipient, usually a close relative or friend",
+        "Occurs once and does not repeat",
+        "Often reported as indistinguishable from a real person until the apparition vanishes"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
+      "description": "Crisis apparitions have been reported globally across all cultures and historical periods. Systematic collection has focused heavily on the British Isles and Europe from the 1880s onward, with cases documented in North America, Australia, and other countries.",
+      "continents": ["Europe", "North America", "Australia", "Asia", "Africa"],
+      "countries": ["United Kingdom", "United States", "Australia", "Germany", "France"],
       "regions": []
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-modern",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "References to crisis apparitions appear in ancient and medieval literature across many cultures"
+      },
+      "peak_activity_periods": [
+        { "period": "1882–1900", "description": "Systematic collection and analysis by the Society for Psychical Research; publication of Phantasms of the Living (1886)" },
+        { "period": "1950s–present", "description": "Continued investigation by parapsychologists and psychical researchers; cross-cultural surveys" }
+      ],
+      "seasonal_patterns": "No documented seasonal pattern; crisis apparitions are tied to individual crisis events rather than time of year."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Reports of the dying or endangered appearing to loved ones at a distance are found across many cultures and historical periods, including ancient Rome, medieval Europe, and numerous Indigenous traditions.",
+      "earliest_accounts": "References appear in classical Roman literature and medieval European accounts. Systematic documentation began with the Society for Psychical Research in 1882.",
+      "folklore_connections": "The 'fetch' or 'wraith' of Irish and Scottish folklore is a traditional equivalent — an apparition of a living person seen at the time of their death. Similar concepts appear in many cultures worldwide."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1882-01-01", "event": "Society for Psychical Research (SPR) founded in Cambridge, England, by Henry Sidgwick, Frederic W.H. Myers, Edmund Gurney, and others", "significance": "First organized scientific body to systematically collect and evaluate apparition reports", "source": "SPR official history" },
+      { "date": "1886-01-01", "event": "Phantasms of the Living published by Edmund Gurney, Frederic W.H. Myers, and Frank Podmore, analyzing 702 verified crisis apparition cases", "significance": "Foundational systematic study of crisis apparitions; proposed telepathy as the mechanism", "source": "Gurney, Myers, Podmore (1886), Phantasms of the Living" },
+      { "date": "1894-01-01", "event": "SPR Census of Hallucinations, coordinated by Eleanor Sidgwick, surveys 17,000 people across multiple countries about apparition experiences", "significance": "Large-scale statistical survey confirming frequency of crisis coincidences far above chance", "source": "SPR Proceedings (1894)" }
+    ],
+    "modern_era": "Crisis apparitions continue to be collected and studied by parapsychologists and by the SPR. Modern approaches include statistical analysis of large case collections, psychological studies of grief and bereavement hallucinations, and neuroscientific investigation of the perceptual mechanisms that might produce such experiences."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 702,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 702,
+      "debunked": 0,
+      "date_range": { "earliest": "1882", "latest": "2026" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "crisis-apparition-phantasms-1886",
+        "type": "archive",
+        "name": "Phantasms of the Living (1886)",
+        "date": "1886",
+        "description": "Two-volume, 1,300-page systematic analysis of 702 crisis apparition cases collected from 5,700 respondents by the SPR. The foundational dataset of crisis apparition research.",
+        "status": "disputed",
+        "analysis": "The authors, Edmund Gurney, Frederic W.H. Myers, and Frank Podmore, argued the cases demonstrated telepathy. Skeptics point to selection bias, retrospective distortion, and the difficulty of establishing true coincidence timing.",
+        "source": "Gurney, E., Myers, F.W.H., Podmore, F. (1886)"
+      },
+      {
+        "id": "crisis-apparition-census-1894",
+        "type": "archive",
+        "name": "Census of Hallucinations (1894)",
+        "date": "1894",
+        "description": "SPR survey of approximately 17,000 people across multiple countries asking about hallucination experiences. Found crisis apparitions occurred 440 times more frequently than chance expectation.",
+        "status": "disputed",
+        "analysis": "Groundbreaking statistical approach; criticized for methodological limitations including self-selection of respondents and difficulty verifying timing of apparition versus crisis.",
+        "source": "Sidgwick, E. et al., SPR Proceedings (1894)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Telepathic transmission",
+        "description": "The distress of the dying or endangered person generates a telepathic impulse that reaches the mind of the percipient, producing a hallucination of the agent. This was the dominant theory of the SPR founders.",
+        "proponents": ["Edmund Gurney", "Frederic W.H. Myers", "Frank Podmore"],
+        "evidence_cited": ["Statistical frequency far exceeding chance in the Census of Hallucinations", "702 cases analyzed in Phantasms of the Living", "Consistency of reports across cultures"]
+      },
+      {
+        "name": "Survival of consciousness / communication from the dying",
+        "description": "The consciousness of the dying or seriously distressed person partially separates from the body and projects itself to loved ones.",
+        "proponents": ["Spiritualist tradition", "Some parapsychologists"],
+        "evidence_cited": ["Subjective reports of a farewell quality in the apparition's demeanor", "Cases where information conveyed was later verified"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Coincidence with grief hallucination",
+        "description": "Bereavement and extreme stress regularly produce hallucinations of deceased or absent loved ones; when these coincide with an actual crisis, survivors retrospectively connect them.",
+        "proponents": ["W. Dewi Rees (1971 bereavement hallucination study)", "Julian Jaynes"],
+        "evidence_cited": ["High baseline rate of bereavement hallucinations in the general population", "Difficulty establishing precise timing of apparition relative to crisis event"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Selective memory and retrospective fabrication",
+        "description": "People who dream of or think of an absent loved one many times never note it; on the rare occasion this coincides with a genuine crisis, they report it as a crisis apparition. Selection and memory distortion explain the apparent frequency.",
+        "proponents": ["Susan Blackmore", "Michael Shermer"],
+        "evidence_cited": ["Base rate of thinking about loved ones is high enough to produce coincidences by chance", "Timing of reports is difficult to verify independently", "Gurney's own data has been re-analyzed with different statistical conclusions"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Irish and Scottish 'fetch' or 'wraith' tradition — apparition of a living person seen at death",
+        "Germanic Doppelganger tradition",
+        "Roman literary accounts of apparitions of the dying",
+        "Medieval Christian accounts of saints appearing at death"
+      ],
+      "stories": [
+        "Classic SPR case: A woman sees her brother standing at the foot of her bed, apparently wounded; learns the next day he was killed in battle at approximately the same time",
+        "Multiple cases in Phantasms of the Living (1886) of sailors or soldiers appearing to family members at the moment of death at sea or in battle"
+      ],
+      "beliefs": "Across many cultures, the appearance of a living person's image to a distant friend or family member has been interpreted as evidence of a soul's ability to travel at the moment of death, or of a deep bond between loved ones that transcends physical distance."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Phantasms of the Living — Edmund Gurney, Frederic W.H. Myers, Frank Podmore (1886)",
+        "Human Personality and Its Survival of Bodily Death — Frederic W.H. Myers (1903)"
+      ],
       "film_tv": [],
       "games": [],
       "other": []
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Edmund Gurney", "affiliation": "Society for Psychical Research (co-founder)", "contribution": "Co-authored Phantasms of the Living (1886); proposed telepathy as mechanism for crisis apparitions", "period": "1882–1888" },
+      { "name": "Frederic W.H. Myers", "affiliation": "Society for Psychical Research (co-founder)", "contribution": "Co-authored Phantasms of the Living; developed the concept of the subliminal self as carrier of telepathic impressions", "period": "1882–1901" },
+      { "name": "Frank Podmore", "affiliation": "Society for Psychical Research", "contribution": "Co-authored Phantasms of the Living; later took a more skeptical position on the cases", "period": "1882–1910" },
+      { "name": "Eleanor Sidgwick", "affiliation": "Society for Psychical Research", "contribution": "Led the 1894 Census of Hallucinations, the first large-scale statistical survey of crisis apparitions", "period": "1882–1936" },
+      { "name": "Ian Stevenson", "affiliation": "University of Virginia", "contribution": "Continued systematic collection and analysis of apparition cases in the 20th century", "period": "1960s–2007" }
+    ],
+    "organizations": [
+      { "name": "Society for Psychical Research (SPR)", "url": "https://www.spr.ac.uk", "focus": "Systematic scientific investigation of apparitions, telepathy, and related phenomena since 1882" },
+      { "name": "American Society for Psychical Research (ASPR)", "url": "https://www.aspr.com", "focus": "North American counterpart of the SPR; collects and investigates spontaneous cases" }
+    ],
+    "ongoing_studies": "Crisis apparition cases continue to be collected by the SPR and ASPR. Modern research focuses on the neuroscience of hallucination, the psychology of grief-related perception, and statistical analysis of large case collections."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "gurney-1886",
+      "type": "book",
+      "title": "Phantasms of the Living",
+      "authors": ["Edmund Gurney", "Frederic W.H. Myers", "Frank Podmore"],
+      "publication": "Trubner and Co.",
+      "date": "1886"
+    },
+    {
+      "id": "spr-history",
+      "type": "website",
+      "title": "Society for Psychical Research — Our History",
+      "url": "https://www.spr.ac.uk/about/our-history",
+      "accessed": "2026-05-08"
+    },
+    {
+      "id": "monstropedia-crisis",
+      "type": "website",
+      "title": "Crisis Apparitions — Monstropedia",
+      "url": "https://www.monstropedia.org/index.php?title=Crisis_Apparitions",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
